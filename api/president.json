@@ -1,0 +1,62 @@
+{
+    "racine": {
+        "produit": [
+            {
+                "image": "./asset/Charles_de_Gaulles.jpeg",
+                "nom": "Charles de Gaulle",
+                "mandat": "1959-1969",
+                "naissance": "1890",
+                "statut": "1970"
+            },
+            {
+                "image": "./asset/George_Pompidou.jpeg",
+                "nom": "George Pompidou",
+                "mandat": "1969-1974",
+                "naissance": "1911",
+                "statut": "1974"
+            },
+            {
+                "image": "./asset/ValÇrie_Giscard_Estaing.jpeg",
+                "nom": "Valerie Giscard Estaing",
+                "mandat": "1974-1981",
+                "naissance": "1926",
+                "statut": "2020"
+            },
+            {
+                "image": "./asset/Franáois_Mitterand.jpeg",
+                "nom": "Francois Mitterand",
+                "mandat": "1981-1995",
+                "naissance": "1916",
+                "statut": "1996"
+            },
+            {
+                "image": "./asset/Jacques_Chirac.jpeg",
+                "nom": "Jacques Chirac",
+                "mandat": "1995-2007",
+                "naissance": "1932",
+                "statut": "2019"
+            },
+            {
+                "image": "./asset/Nicolas_Sarkozy.jpeg",
+                "nom": "Nicolas Sarkozy",
+                "mandat": "2007-2012",
+                "naissance": "1955",
+                "statut": "Vivant"
+            },
+            {
+                "image": "./asset/Franáois_Hollande.jpeg",
+                "nom": "Francois Hollande",
+                "mandat": "2012-2017",
+                "naissance": "1954",
+                "statut": "Vivant"
+            },
+            {
+                "image": "./asset/Emmanuel_Macron.jpeg",
+                "nom": "Emmanuel Macron",
+                "mandat": "2017-AUJD",
+                "naissance": "1976",
+                "statut": "trop jeune"
+            }
+        ]
+    }
+}
