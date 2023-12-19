@@ -65,3 +65,21 @@ header h1 {
     margin-bottom: 5rem;
     padding: 1rem 0;
 }
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 730px) {
+    .primary-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .primary-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
