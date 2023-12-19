@@ -1,31 +1,67 @@
-/* Reset */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*========== RESET ==========*/
+* {
     box-sizing: border-box;
 }
-html{ 
-    font-size: 62.5%;  
+
+html {
+    font-size: 62.5%;
 }
-body{
-    font: 1.6rem sans-serif; 
-    font-family: 'Roboto' sans-serif;
-    margin: 0;  
+
+body {
+    font: 1.6rem sans-serif;
+    font-family: 'Montserrat' sans-serif;
+    margin: 0;
 }
-h1,h2,h3,h4,p,ol,ul,figure,dd{
+
+h1,h2,h3,h4,p,ol,ul,figure,dd {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-h1,h2,h3,h4{
+
+h1,h2,h3,h4 {
     font-weight: normal;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-img{
-    width: 400px;
+ul {
+    list-style: none;
 }
 
-ul{
-    list-style: none;
+/*========== RESET(fin) ==========*/
+
+:root {
+    --bgcolor_all: #3b4345;
+    --color-text-header: #fff;
+    --bgcolor_grid: #fafafa;
+}
+
+img {
+    width: 100%;
+    height: 30rem;
+}
+
+.primary-grid {
+    display: grid;
+    max-width: 100rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fafafa;
+    box-shadow: 0 0 2rem var(--bgcolor_all);
+}
+
+header h1 {
+    line-height: 6.Orem;
+    text-align: center;
+    color: var(--color-text-header);
+    background-color: var(--bgcolor_all);
+    margin-bottom: 5rem;
+    padding: 1rem 0;
 }
